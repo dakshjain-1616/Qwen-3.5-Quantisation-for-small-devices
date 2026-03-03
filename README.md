@@ -1,6 +1,7 @@
 # Qwen3.5-2B Edge Deploymen
 
 > Whole Qunatization was done autonomously by [NEO](https://heyneo.so/) - Your Autonomous AI Engineering Agent
+
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GGUF](https://img.shields.io/badge/format-GGUF-green.svg)](https://github.com/ggerganov/ggml)
