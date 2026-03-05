@@ -1,6 +1,6 @@
-# Qwen3.5-2B Edge Deploymen
+# Qwen3.5-2B Quantization for Small Devices
 
-> Whole Qunatization was done autonomously by [NEO](https://heyneo.so/) - Your Autonomous AI Engineering Agent
+> Whole Quantization was done autonomously by [NEO](https://heyneo.so/) - Your Autonomous AI Engineering Agent
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -24,7 +24,7 @@ This repository contains extreme quantization of the Qwen3.5-2B model for deploy
 ```
 Original FP16:    3,600 MB (baseline)
 Q4_K_S:           1,152 MB (68% reduction)
-Q3_K_S:             973 MB (73% reduction)  
+Q3_K_S:             973 MB (73% reduction)
 Q2_K:               873 MB (76% reduction)
 ```
 
@@ -145,11 +145,10 @@ curl http://localhost:8080/v1/chat/completions \
 ---
 
 ## 🔧 Project Structure
-
 ```
-Quantied/
+Quantized/
 ├── edge_deploy.py          # Main deployment script
-├── convert_qwen35_9b_to_gguf.py  # Model conversion utilities
+├── convert_qwen35_2b_to_gguf.py  # Model conversion utilities
 ├── run_evaluation.py         # Benchmarking script
 ├── requirements.txt          # Python dependencies
 ├── llama.cpp/               # llama.cpp source (build artifacts cleaned)
@@ -227,4 +226,4 @@ For questions or issues:
 - Check the troubleshooting section above
 
 ---
-Whole Qunatization was done autonomously by [NEO](https://heyneo.so/) - Your Autonomous AI Engineering Agent
+Whole Quantization was done autonomously by [NEO](https://heyneo.so/) - Your Autonomous AI Engineering Agent
